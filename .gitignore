@@ -15,5 +15,12 @@ _out.txt
 _stress*
 _test_*
 _rs_codec.py
-text_watermark_files.py
 version_info.txt
+
+# 测试 / 调试产物（非交付物，避免误提交）
+# 注意：d7_src.png / d7_src_wm.png 等是已跟踪的样例图，不得忽略，故用数字后缀精确匹配调试图
+dbg_*
+d7_c*.png
+d7_j*
+d7_s[0-9]*.png
+
